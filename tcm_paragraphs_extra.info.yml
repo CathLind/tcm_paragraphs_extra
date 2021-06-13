@@ -1,7 +1,7 @@
 name: 'TCM Paragraphs extra'
 type: module
 description: 'Extra paragraphs to our sites'
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: 'TCM'
 dependencies:
   - paragraphs
