@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bild_vanster_med_text
+label: 'Bild -Vänster med text'
+icon_uuid: null
+description: 'Smal bild till vänster. med en text till höger'
+behavior_plugins: {  }

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bild_trippel.field_tre_bilder
+    - paragraphs.paragraphs_type.bild_trippel
+  module:
+    - image
+id: paragraph.bild_trippel.default
+targetEntityType: paragraph
+bundle: bild_trippel
+mode: default
+content:
+  field_tre_bilder:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

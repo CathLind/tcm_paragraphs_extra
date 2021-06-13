@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: fyra_bilder
+label: 'Bilder - 4 runda'
+icon_uuid: null
+description: 'Ger fyra bilder med en rubrik, bild och text. Bilderna blir runda. Kvadratiska bilder ger cirklar, rektangulära bilder ger ovaler.'
+behavior_plugins: {  }

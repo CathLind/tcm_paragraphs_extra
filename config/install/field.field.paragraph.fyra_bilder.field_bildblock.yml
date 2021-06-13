@@ -1,0 +1,69 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bildblock
+    - paragraphs.paragraphs_type.fyra_bilder
+    - paragraphs.paragraphs_type.up_bild_med_text
+  module:
+    - entity_reference_revisions
+id: paragraph.fyra_bilder.field_bildblock
+field_name: field_bildblock
+entity_type: paragraph
+bundle: fyra_bilder
+label: Bildblock
+description: 'Block med titel, bild och text. För att sidan skall se snygg ut behöver alla fyra användas. Tänk på att bilderna blir runda, så de behöver vara kvadratiska.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      up_bild_med_text: up_bild_med_text
+    target_bundles_drag_drop:
+      fyra_bilder:
+        weight: 15
+        enabled: false
+      bild_trippel:
+        weight: 16
+        enabled: false
+      bild_vanster_med_text:
+        weight: 17
+        enabled: false
+      gallery:
+        weight: 18
+        enabled: false
+      gallery_small:
+        weight: 19
+        enabled: false
+      image:
+        weight: 20
+        enabled: false
+      instagram:
+        weight: 21
+        enabled: false
+      link:
+        weight: 22
+        enabled: false
+      pinterest:
+        weight: 23
+        enabled: false
+      quote:
+        weight: 24
+        enabled: false
+      text:
+        weight: 25
+        enabled: false
+      twitter:
+        weight: 26
+        enabled: false
+      up_bild_med_text:
+        enabled: true
+        weight: 27
+      video:
+        weight: 28
+        enabled: false
+field_type: entity_reference_revisions

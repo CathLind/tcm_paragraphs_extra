@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bild_centrerad
+label: 'Bild - fullbredd'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

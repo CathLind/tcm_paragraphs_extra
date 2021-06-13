@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bild_centrerad.field_image
+    - paragraphs.paragraphs_type.bild_centrerad
+  module:
+    - empty_fields
+id: paragraph.bild_centrerad.default
+targetEntityType: paragraph
+bundle: bild_centrerad
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: original
+      link: false
+    third_party_settings:
+      empty_fields:
+        handler: ''
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

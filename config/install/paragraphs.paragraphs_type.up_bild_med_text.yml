@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: up_bild_med_text
+label: 'UP-bild med text'
+icon_uuid: null
+description: 'Används enbart som en underparagraf. Den innehåller en bild, titel och textruta.'
+behavior_plugins: {  }

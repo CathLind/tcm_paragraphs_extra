@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titel
+    - paragraphs.paragraphs_type.up_bild_med_text
+id: paragraph.up_bild_med_text.field_titel
+field_name: field_titel
+entity_type: paragraph
+bundle: up_bild_med_text
+label: Titel
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

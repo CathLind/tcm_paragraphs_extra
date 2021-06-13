@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bild_trippel
+label: 'Bild - trippel'
+icon_uuid: null
+description: 'Tre bilder bredvid varandra. '
+behavior_plugins: {  }

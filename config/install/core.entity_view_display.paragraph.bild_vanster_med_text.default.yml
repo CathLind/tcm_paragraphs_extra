@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bild_vanster_med_text.field_smalbild
+    - field.field.paragraph.bild_vanster_med_text.field_text
+    - paragraphs.paragraphs_type.bild_vanster_med_text
+  module:
+    - image
+    - text
+id: paragraph.bild_vanster_med_text.default
+targetEntityType: paragraph
+bundle: bild_vanster_med_text
+mode: default
+content:
+  field_smalbild:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_text:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }
